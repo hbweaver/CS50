@@ -1,141 +1,59 @@
-body::before 
-{
-  content: "";
-  position: fixed;
-  top: -10px;
-  left: 0;
-  width: 100%;
-  height: 10px;
-  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
-  z-index: 100;
-}
+<!DOCTYPE html>
 
-  html 
-{
-  --scrollbarBG: whitesmoke;
-  --thumbBG: black;
-}
+<html>
 
-body::-webkit-scrollbar 
-{
-  width: 10px;
-}
+<head>
+    <meta charset="utf-8" name="viewport" content="width-device-width" initial-scale=1.0>
+    <title>Harvard CS50 | Holden B. Weaver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-body 
-{
-  scrollbar-width: 10px;
-  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
-}
+<body>
+    <h1>HARVARD UNIVERSITY | CS FOR BUSINESS PROFESSIONALS</h1>
 
-body::-webkit-scrollbar-track 
-{
-  background: var(--scrollbarBG);
-}
+    <div style="text-align:center">
+        <img class="logo" src="logo.png" alt="Harvard Logo" height="100" width="100">
+    </div>
 
-body::-webkit-scrollbar-thumb 
-{
-  background-color: var(--thumbBG) ;
-  border-radius: 6px;
-  border: 3px solid var(--scrollbarBG);
-}
+    <form action="thankyou.html">
+        <div class="namepassword">
+            <p>
+                The link to the GitHub repository for this project can be found <a
+                    href="https://github.com/hbweaver/CS50">here</a>. Click the submit button to access
+                content. If there are any questions, please email holdenbweaver1@gmail.com.
+            </p>
+            <p>
+                <input name="username" type="text" placeholder="Username">
 
-h1  
-{
-  color: black;
-  background-color: whitesmoke;
-  text-align: center;
-  font-family: "times new roman";
-  font-weight: bold;
-  border-style: double;
-  border-color: black;
-  padding: 15px;
- }
+                <input name="password" type="password" placeholder="Password">
+            </p>
+            <p>
+                <input name="submit" type="submit" placeholder="submit" a href="thankyou.html">
+            </p>
+        </div>
+    </form>
 
-.logo 
-{
-  vertical-align: baseline;
-}
+    <footer>
 
-p, body 
-{
-  color: white;
-  font-family: "times new roman";
-  background-color: rgb(168, 28, 48);
-}
+        <div style="text-align: center;">
+            <p>
+                <small>Disclaimer: This site contains copyrighted material the use of which has not always been
+                    specifically authorized by the copyright owner. Any use of copyrighted material from this page or
+                    elsewhere on the site is done so for educational purposes only and constitutes 'fair use' as
+                    provided in Section 107 of the US Copyright Law. In accordance with Title 17 U.S.C. Section 107, the
+                    material on this site is distributed without profit to those who have expressed a prior interest in
+                    receiving the included information for research and educational purposes.</small>
+            </p>
+        </div>
 
-a 
-{
-  color: rgb(212, 235, 243);
-  font-family: "times new roman";
-  background-color: rgb(168, 28, 48);
-}
+        <div class="socialmedia" style="text-align: center;">
+            <img class="github" src="GitHub-Mark-Light-32px.png" alt="Holden Weaver GitHub" />
+            <img class="linkedin" src="linkedin.png" width="32px" height="32px" alt="Holden Weaver LinkedIn" />
+            <img class="twitter" src="Twitter_Social_Icon_Circle_White.png" height="32px" alt="Holden Weaver" /><br>
+            <small>&copy; Copyright 2020 | Holden Brooks Weaver</small>
+        </div>
+    </footer>
 
-.vid1, .vid2, .vid3, .vid4, .vid5, .vid6, .vid7, .vid8 
-{
+</body>
 
-  border-color: whitesmoke;
-  border: solid;
-  margin: 5px;
-}
-
-h2 
-{
-  color: black;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "times new roman";
-  background-color: whitesmoke;
-  font-weight: bold;
-  border-style: solid;
-  border-width: thin;
-  border-color: black;
-  border-radius: 25px;
-  padding: 10px;
-}
-
-.cycle1, .cycle2 
-{
-  border-color: black;
-  border-style: solid;
-  border-width: thin;
-  margin: 20px;
-}
-
-h3 
-{
-  color: whitesmoke;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-  text-align: center;
-  border: solid;
-  border-width: thin;
-  border-color: whitesmoke;
-  border-radius: 25px;
-  padding: 5px;
-  text-transform: capitalize;
-}
-
-.github, .linkedin, .twitter 
-{
-  padding: 5px;
-}
-
-.fixedfooter {
-  text-align: center;
-  position: fixed;
-  right: 0; bottom: 10px; left: 0;
-}
-
-.namepassword 
-{
-  text-align: center;
-  padding: 25px;
-  border-top: double;
-  border-bottom: double;
-  border-width: medium;
-  border-color: whitesmoke;
-  margin-top: 50px;
-  margin-right: 150px;
-  margin-bottom: 50px;
-  margin-left: 150px; 
-}
+</html>
