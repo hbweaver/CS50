@@ -1,7 +1,7 @@
 # CS50 Web Development Project
 
 This is my first webpage using the HTML markup and CSS style sheet languages for an assignment in Harvard University's 
-CS50 for Business Professionals. It is a simple webpage to express gratitude for the concpets learned and provide those interested with lessons provided for free online. Python and Javascript is integrated as well and be implemented accordingly. If there are any recommendations to the HTML and CSS syntax, please do not refrain from constructive criticism - it will be an ongoing project and become more interactive as new concepts are learned. You can find the updated GitHub page [here](https://hbweaver.github.io/CS50_web_development/).
+CS50 for Business Professionals. It is a simple webpage to express gratitude for the concepts learned and provide those interested with lessons provided for free online. Python and Javascript is integrated as well and be implemented accordingly. If there are any recommendations to the HTML and CSS syntax, please do not refrain from constructive criticism - it will be an ongoing project and become more interactive as new concepts are learned.
 
 ## Main Goals of Project
 
